@@ -6,6 +6,8 @@
 build/
 DerivedData/
 
+Notification.xcodeproj/project.xcworkspace/xcuserdata/ryanzhan.xcuserdatad/UserInterfaceState.xcuserstate
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
