@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5CE9BC20266B070036CFB9 /* dataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5CE9BB20266B070036CFB9 /* dataStructure.swift */; };
 		630547592026569B0007ABDA /* NotificationFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630547582026569B0007ABDA /* NotificationFunctions.swift */; };
 		63CFA5362025857E008D8BE9 /* ScenesHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFA5352025857D008D8BE9 /* ScenesHomeViewController.swift */; };
 		63CFA53820258590008D8BE9 /* SwitchToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFA53720258590008D8BE9 /* SwitchToggle.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F5CE9BB20266B070036CFB9 /* dataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataStructure.swift; sourceTree = "<group>"; };
 		630547582026569B0007ABDA /* NotificationFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationFunctions.swift; sourceTree = "<group>"; };
 		63CFA5352025857D008D8BE9 /* ScenesHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenesHomeViewController.swift; sourceTree = "<group>"; };
 		63CFA53720258590008D8BE9 /* SwitchToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchToggle.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				C3148CAE2013F75600CBAC66 /* LaunchScreen.storyboard */,
 				C3148CB12013F75600CBAC66 /* Info.plist */,
 				C3148CD32013F7B600CBAC66 /* Storyboard.storyboard */,
+				4F5CE9BB20266B070036CFB9 /* dataStructure.swift */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				63CFA53820258590008D8BE9 /* SwitchToggle.swift in Sources */,
 				C3148CA82013F75600CBAC66 /* SceneEditViewController.swift in Sources */,
 				C3148CA62013F75600CBAC66 /* AppDelegate.swift in Sources */,
+				4F5CE9BC20266B070036CFB9 /* dataStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

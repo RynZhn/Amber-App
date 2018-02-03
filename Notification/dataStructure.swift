@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct SceneData {
+    var sceneName = name
+    var notificationName = notif
+    var description = descrip
+    var timer = interval
+    var silentSwitch = SceneSwitch
+}
+
+
+
+
