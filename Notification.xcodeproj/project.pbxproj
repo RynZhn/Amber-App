@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630547592026569B0007ABDA /* NotificationFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630547582026569B0007ABDA /* NotificationFunctions.swift */; };
 		63CFA5362025857E008D8BE9 /* ScenesHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFA5352025857D008D8BE9 /* ScenesHomeViewController.swift */; };
 		63CFA53820258590008D8BE9 /* SwitchToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFA53720258590008D8BE9 /* SwitchToggle.swift */; };
 		63CFA53A202585A1008D8BE9 /* SceneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63CFA539202585A0008D8BE9 /* SceneCell.xib */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630547582026569B0007ABDA /* NotificationFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationFunctions.swift; sourceTree = "<group>"; };
 		63CFA5352025857D008D8BE9 /* ScenesHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenesHomeViewController.swift; sourceTree = "<group>"; };
 		63CFA53720258590008D8BE9 /* SwitchToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchToggle.swift; sourceTree = "<group>"; };
 		63CFA539202585A0008D8BE9 /* SceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SceneCell.xib; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		C3148CA42013F75600CBAC66 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
+				630547582026569B0007ABDA /* NotificationFunctions.swift */,
 				C3148CA52013F75600CBAC66 /* AppDelegate.swift */,
 				C3148CA72013F75600CBAC66 /* SceneEditViewController.swift */,
 				63CFA5352025857D008D8BE9 /* ScenesHomeViewController.swift */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630547592026569B0007ABDA /* NotificationFunctions.swift in Sources */,
 				63CFA5362025857E008D8BE9 /* ScenesHomeViewController.swift in Sources */,
 				63CFA53820258590008D8BE9 /* SwitchToggle.swift in Sources */,
 				C3148CA82013F75600CBAC66 /* SceneEditViewController.swift in Sources */,
