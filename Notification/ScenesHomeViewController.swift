@@ -20,6 +20,9 @@ class SceneCell: UITableViewCell
     
     @IBOutlet weak var SetScene: UISwitch!
     
+    func setSwitch(switchState: Bool){
+        SetScene.setOn(switchState, animated: false)
+    }
     @IBAction func ChangeScene(_ sender: Any)
     {
         //if (SetScene.isOn==true)
@@ -32,24 +35,26 @@ class SceneCell: UITableViewCell
        // }
         SetSceneFill = SwitchToggle(SceneName: SceneName.text!)
         //self.reloadInputViews()
+       //func reloadData()
+ 
         print (SetSceneFill)
     }
     
 }
 
-class ScenesHomeViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource {
 
     @IBAction func AddScene(_ sender: Any)
     {
         performSegue(withIdentifier: "segue", sender: self)
     }
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         self.tableView.register(UINib(nibName: "SceneCell", bundle: nil), forCellReuseIdentifier: "CustomScene")    }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -71,19 +76,28 @@ class ScenesHomeViewController: UIViewController, UITableViewDataSource {
         //self.tableView.endUpdates()
         return cell
     }
-   
-  
     
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
     
+    
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if (editingStyle == UITableViewCellEditingStyle.delete) {
-           count = count-1
+        
+        if editingStyle == .delete {
+            
+            // remove the item from the data model
+            SceneNameFill.remove(at: indexPath.row)
+            SetSceneFill.remove(at: indexPath.row)
+            count=count-1
+            
+            // delete the table view row
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+        } else if editingStyle == .insert {
+            // Not used in our example, but if you were adding a new row, this is where you would do it.
         }
     }
     
    
 }
-
