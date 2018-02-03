@@ -94,6 +94,7 @@
                                 <state key="normal" title="Done"/>
                                 <connections>
                                     <action selector="Done:" destination="BYZ-38-t0r" eventType="touchUpInside" id="elo-JX-w0w"/>
+                                    <segue destination="uMq-hS-QPO" kind="showDetail" identifier="home" id="7Kl-jx-kfo"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g13-23-b52">

@@ -55,7 +55,7 @@ class SceneEditViewController: UIViewController {
         NotificationTextField.text = " "
         DescriptionTextField.text = " "
         SilentSwitch.setOn(false, animated: true);
-        
+        performSegue(withIdentifier: "home", sender: self)
     }
     
     @IBAction func Cancel(_ sender: Any) {
@@ -64,10 +64,6 @@ class SceneEditViewController: UIViewController {
         DescriptionTextField.text = " "
         SilentSwitch.setOn(false, animated: true);
     }
-    
-    
-    
-    
     
     
     override func viewDidLoad() {
