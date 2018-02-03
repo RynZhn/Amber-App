@@ -38,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63CFA5352025857D008D8BE9 /* ScenesHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScenesHomeViewController.swift; path = ../../../Downloads/AmberApp/AmberApp/ScenesHomeViewController.swift; sourceTree = "<group>"; };
-		63CFA53720258590008D8BE9 /* SwitchToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitchToggle.swift; path = ../../../Downloads/AmberApp/AmberApp/SwitchToggle.swift; sourceTree = "<group>"; };
-		63CFA539202585A0008D8BE9 /* SceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SceneCell.xib; path = ../../../Downloads/AmberApp/AmberApp/SceneCell.xib; sourceTree = "<group>"; };
+		63CFA5352025857D008D8BE9 /* ScenesHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenesHomeViewController.swift; sourceTree = "<group>"; };
+		63CFA53720258590008D8BE9 /* SwitchToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchToggle.swift; sourceTree = "<group>"; };
+		63CFA539202585A0008D8BE9 /* SceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SceneCell.xib; sourceTree = "<group>"; };
 		C3148CA22013F75600CBAC66 /* Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3148CA52013F75600CBAC66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3148CA72013F75600CBAC66 /* SceneEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneEditViewController.swift; sourceTree = "<group>"; };
